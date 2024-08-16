@@ -1,0 +1,224 @@
+/* src/styles/About.css */
+.about-home100-form-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 5px;
+  width: 100%;
+}
+.home100-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  border-radius: 25px;
+  font-family: Montserrat-Medium;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+}
+/* .home100-form-btn:hover {
+  background-color: #00ad5f;
+  border: none;
+} */
+.about-home100-form-btn a {
+  text-decoration: none;
+}
+
+.about.marketing {
+  padding: 20px;
+}
+
+.featurette-divider {
+  margin: 20px 0;
+}
+
+.featurette {
+  padding: 20px 0;
+}
+
+.featurette-heading {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.text-body-secondary {
+  color: #6c757d;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.text-section {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.text-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.skills-section {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skill span {
+  flex: 1;
+  font-size: 1.2em;
+}
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.text-section {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.text-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.skills-section {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skill span {
+  flex: 1;
+  font-size: 1.2em;
+}
+
+.progress-bar {
+  flex: 2;
+  height: 20px; /* Adjust height as needed */
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-left: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.percentage {
+  flex: 0.5;
+  text-align: right;
+  padding-left: 10px;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.chef-profiles-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.chef-profiles-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.chef-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.chef-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 8px;
+  height: 50vh;
+}
+
+.chef-card h3 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.chef-card .title {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.chef-card .description {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: #666;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
